@@ -1706,7 +1706,7 @@ figure {
   .post-list .post-thumbnail.no-image > a {
     width: 100%;
     min-height: 200px;
-    background: #fff url(/images/bg-pattern.png);
+    background: #fff url(../images/bg-pattern.png);
     background-size: cover; }
 @media screen and (min-width: 768px) {
   .post-list .post-content {
