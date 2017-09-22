@@ -1454,7 +1454,7 @@ body {
 
 body {
   border-top: 5px solid #f44336;
-  background: #fff url('../images/bg-pattern');
+  background: #fff url('../images/bg-pattern.png');
   padding-top: 75px; }
   @media screen and (min-width: 768px) {
     body {
