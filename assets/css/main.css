@@ -439,10 +439,15 @@ template {
   display: none; }
 
 .button-ghost {
-  background-color: transparent;
-  margin-bottom: 2px; }
-  .button-ghost:hover, .button-ghost:focus {
-    border: 2px solid #f44336; }
+  width: 100%; }
+  @media screen and (min-width: 1240px) {
+    .button-ghost {
+      background-color: transparent;
+      margin-bottom: 2px;
+      width: 15%; } }
+
+.button-ghost:hover, .button-ghost:focus {
+  border: 2px solid #f44336; }
 
 fieldset {
   background-color: tint(#dedede, 75%);
@@ -517,7 +522,10 @@ select {
   padding: 0 0 25px; }
 
 .font {
-  font-size: 1.8rem; }
+  font-size: 1.4rem; }
+  @media screen and (min-width: 1240px) {
+    .font {
+      font-size: 1.8rem; } }
 
 ul,
 ol {
